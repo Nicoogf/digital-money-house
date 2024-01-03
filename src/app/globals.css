@@ -4,4 +4,7 @@
 
 .altura{
     height: calc(100vh - 100px);
+    background-image: url("../../public//fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
