@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         lemon: '#C0FD35',
-        greylight: '#3A393E',
+        greylight: '#CECECE',
+        greystandar: '#3A393E',
         greydark: '#202022',
         rederror: '#FF0004',
       },
