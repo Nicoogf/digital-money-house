@@ -29,22 +29,25 @@ const page = () => {
                            xl:w-[18%] lg:py-3 lg:text-base'/>
 
         <a className='bg-lemon block text-center font-semibold py-3 rounded-lg cursor-pointer border-2
-                      w-[80%] border-transparent hover:bg-transparent hover:text-lemon hover:border-lemon
+                      w-[80%] border-transparent hover:bg-gray-900/70 hover:text-lemon hover:border-lemon
                       transition-all duration-500
                         sm:w-[50%] sm:text-xl sm:py-4
                         md:py-5
                         lg:w-[25%] lg:py-3 lg:text-xl
                         xl:w-[18%] lg:py-3 lg:text-base'
+            href="./password"
         > Confirmar </a>
 
         <a className='bg-greylight block text-center font-semibold py-3 rounded-lg cursor-pointer border-2
-                        w-[80%] border-transparent hover:bg-transparent hover:text-greylight hover:border-greylight
+                        w-[80%] border-transparent hover:bg-gray-900/70 hover:text-greylight hover:border-greylight
                         transition-all duration-500
                         sm:w-[50%] sm:text-xl sm:py-4
                         md:py-5
                         lg:w-[25%] lg:py-3 lg:text-xl
                         xl:w-[18%] lg:py-3 lg:text-base'
-        > Crear Cuenta </a>
+         > 
+                    Crear Cuenta 
+        </a>
         
         <p className='bg-red-600/100 text-xs font-semibold text-white box-border px-4 py-2 rounded-md mt-8
                       sm:text-text-base'>
