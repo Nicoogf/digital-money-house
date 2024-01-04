@@ -21,7 +21,7 @@ const PasswordComponent = () => {
 
       <input placeholder='Contraseña'
              type='password' 
-              className='text-white py-3 rounded-lg bg-greystandar box-border pl-4 outline-none
+              className='text-white py-3 rounded-lg bg-gray-900/70 box-border pl-4 outline-none
                          placeholder:pl-4 placeholder:text-gray-500 active:text-grey-dark
                          w-[80%]
                          sm:w-[50%] sm:text-xl
@@ -36,10 +36,10 @@ const PasswordComponent = () => {
                       md:py-5
                       lg:w-[25%] lg:py-3 lg:text-xl
                       xl:w-[18%] lg:py-3 lg:text-base'
-          href="./password"
+          href="./succes"
       > Continuar </a>      
       
-      <p className='bg-red-600/100 text-xs font-semibold text-white box-border px-4 py-2 rounded-md mt-8
+      <p className='text-xs bg-red-600/100 text-xs font-semibold text-white box-border px-3 py-2 rounded-md mt-8
                     sm:text-text-base'>
         Contraseña incorrecta , vuelve a intentarlo
       </p>
