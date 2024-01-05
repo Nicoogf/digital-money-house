@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    box-sizing: border-box;
+}
+
 .altura{
     height: calc(100vh - 100px);
     background-image: url("../../public/fondo.jpg");
@@ -23,6 +27,22 @@
     background-size: cover;
 }
 
+.oculto{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: all;
+    transition-duration: .5s;
+}
+
+.visible{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all;
+    transition-duration: .5s;
+    box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);
+}
 
 @media (min-width:290px ) {
     .altura,

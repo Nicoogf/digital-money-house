@@ -1,12 +1,13 @@
 import FooterComponent from "./components/FooterComponent";
 import NavOff from "./components/NavOff";
+import NavOn from "./components/NavOn";
 
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
 
-    <NavOff />
+    <NavOn />
 
     <section className='alturatres bg-greydark flex flex-col gap-y-1 relative 
                         sm:gap-y-6                        
@@ -16,7 +17,7 @@ export default function Home() {
                       xs:mt-4 xs:text-xl
                       sm:text-4xl sm:mt-14 sm:ml-8
                       md:text-4xl md:mt-8
-                      lg:mt-2 lg:mt-8 lg:w-[60%] lg:mx-auto
+                      lg:mt-2 lg:w-[60%] lg:mx-auto
                       xl:text-3xl xl:mt-24'> 
           De ahora en <br />adelante,haces mas con tu dinero
       </h3>
