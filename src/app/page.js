@@ -29,7 +29,7 @@ export default function Home() {
                       xs:text-xl
                       sm:text-5xl sm:ml-8
                       md:text-4xl
-                      lg:w-[90%] lg:mx-auto lg:w-[60%]
+                      lg:mx-auto lg:w-[60%]
                       xl:text-3xl'> 
           Tu nueva
       </h3>

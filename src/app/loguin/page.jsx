@@ -45,7 +45,7 @@ const page = () => {
                         md:py-5
                         lg:w-[25%] lg:py-3 lg:text-xl
                         xl:w-[18%] lg:py-3 lg:text-base'
-         > 
+          href="./register"> 
                     Crear Cuenta 
         </a>
         
