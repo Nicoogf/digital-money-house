@@ -8,7 +8,9 @@ const NavOff = () => {
                     xs:py-2
                     sm:py-4 sm:justify-around'>
 
+    <a href='#'>                  
     <Image src={logo} className='w-20 p-2'/>
+    </a> 
 
     <div className='mr-4 flex flex-row gap-x-2 sm:mr-0 sm:gap-x-6'>
         <a href="./loguin"
