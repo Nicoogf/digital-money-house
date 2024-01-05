@@ -9,7 +9,7 @@ const page = () => {
 
     <NavComponent />
 
-    <section className='altura bg-greydark flex flex-col justify-center items-center gap-y-4 
+    <section className='alturatres bg-greydark flex flex-col justify-center items-center gap-y-4 
                         sm:gap-y-6
     '>
 
@@ -25,6 +25,7 @@ const page = () => {
 
       <p className='text-greylight text-center block w-[80%] text-sm
                     sm:text-base
+                    md:text-xl
                     lg:w-[50%] lg:text-2xl
                     xl:w-[50%] xl:text-base '> 
         Hemos enviado un correo de confirmacion para validar tu email, por favor revisalo para iniciar sesion 
@@ -37,7 +38,7 @@ const page = () => {
                       md:py-5
                       lg:w-[25%] lg:py-4 lg:text-2xl
                       xl:w-[14%] xl:py-3 lg:text-base'
-          href="./password"
+          href="./confirm"
       > Continuar  </a>      
 
     </section>

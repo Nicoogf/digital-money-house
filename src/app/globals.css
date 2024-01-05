@@ -15,3 +15,31 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.alturatres{
+    height: calc(100vh - 100px);
+    background-image: url("../../public/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (min-width:290px ) {
+    .altura,
+    .alturados,
+    .alturatres
+    {
+        height: calc(100vh - 116px);
+    }
+    
+  }
+
+  @media (min-width:640px) {
+    .altura,
+    .alturados,
+    .alturatres
+    {
+        height: calc(100vh - 132px);
+    }
+    
+  }
