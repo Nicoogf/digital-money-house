@@ -8,7 +8,7 @@ const NavOff = () => {
                     xs:py-2
                     sm:py-4 sm:justify-around'>
 
-    <a href='#'>                  
+    <a href='../'>                  
     <Image src={logo} className='w-20 p-2'/>
     </a> 
 
@@ -17,7 +17,7 @@ const NavOff = () => {
            className='text-lemon font-semibold text-xs border-[1px] border-lemon px-2 py-1 rounded-md
                       hover:bg-gray-200/70 hover:text-greydark hover:border-white transition-all duration-500
                       xs:text-sm 
-                      sm:text-lg sm:px-6 py-2
+                      sm:text-lg sm:px-6 sm:py-2
                       xl:py-1 xl:text-base' > 
            Ingresar 
         </a>
@@ -26,7 +26,7 @@ const NavOff = () => {
            className='text-greydark font-semibold text-xs bg-lemon border-[1px] border-lemon px-2 py-1 rounded-md
                       hover:bg-gray-900/70 hover:text-lemon transition-all duration-500
                       xs:text-sm
-                      sm:text-lg sm:px-6 py-2
+                      sm:text-lg sm:px-6 sm:py-2
                       xl:py-1 xl:text-base'> 
            Crear cuenta 
         </a>

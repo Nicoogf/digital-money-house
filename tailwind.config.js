@@ -20,14 +20,17 @@ module.exports = {
         rederror: '#FF0004',
       },
       screens: {
-        'xs': '290px',
-        'sm': '640px',  
-        'md': '769px',  
-        'lg': '1024px', 
-        'xl': '1280px',
-        '2xl': '1440px',        
+        'xxs': '290px', // Galaxy Fold and dispositivos con resoluciones similares
+        'xs': '390px',   // Iphone SE / Iphone 12 Pro / Samsung S8+
+        'sm': '480px',   // Iphone XR / Iphone 14 Pro Max / Pixel 7 / Samsung S20 Ultra /Samsung A51/71
+        'md': '768px',   // Ipad Mini / Ipad Air	/ Surface Duo
+        'lg': '1024px',  // Ipad Pro / Surface Pro 7 / NestHub 
+        'xl': '1280px',  // Nest Hub Max / PC low
+        '2xl': '1440px', // Pc hight
       },
     },
   },
   plugins: [],
 };
+
+

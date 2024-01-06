@@ -100,7 +100,7 @@ const PagoComponent = () => {
                         lg:py-3 lg:text-xl
                         xl:w-[250px] xl:py-6
                        '
-            href="./password"
+            href="./pagoexitoso"
         > Pagar </a>
 
       </div>  

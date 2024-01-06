@@ -9,7 +9,9 @@ const NavComponent = () => {
                     xs:py-2
                     sm:py-4 
                     '>
+        <a href='../'>             
         <Image src={logo} className='w-20 p-2'/>
+        </a>   
 
        
     </nav>

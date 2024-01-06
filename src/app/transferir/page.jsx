@@ -1,12 +1,13 @@
 import React from 'react'
 import NavComponent from '../components/Nav';
+import NavOff from "../components/NavOff"
 import FooterComponent from '../components/FooterComponent';
 
 const TransferenciaComponent = () => {
   return (
     <main>
 
-    <NavComponent />
+    <NavOff />
 
     <section className='altura bg-greydark flex flex-col justify-center items-center gap-y-4 
                         sm:gap-y-6
@@ -64,7 +65,7 @@ const TransferenciaComponent = () => {
                         md:py-5
                         lg:py-3 lg:text-xl
                        '
-            href="./password"
+            href="./transferenciaexitosa"
         > Enviar Dinero </a>
       </div>
     
