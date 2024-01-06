@@ -23,7 +23,9 @@ const NavOff = () => {
                   
     <div className={` ${ menu ? "visible" : "oculto"} w-[90%] bg-greydark absolute top-0 bottom-0 left-0 flex-col justify-around z-50 
     xs:w-[70%]
-    sm:w-[60%]`}> 
+    sm:w-[60%]
+    lg:w-[40%]
+    xl:w-[20%]`}> 
     
 
         <div className={`absolute top-4 right-4 cursor-poiter`}>
@@ -44,7 +46,8 @@ const NavOff = () => {
             
         </div>
 
-        <button className='block font-semibold bg-lemon text-greydrak w-[80%] px-4 py-2 mx-auto rounded-lg'> 
+        <button className='block font-semibold bg-lemon text-greydrak w-[80%] px-4 py-2 mx-auto rounded-lg
+        lg:w-[40%] lg:py-3'> 
             Cerrar Sesion
         </button>
 
@@ -59,7 +62,7 @@ const NavOff = () => {
        <Image src={logo} className='w-20 p-2'/>
     </a> 
 
-    <div className='border-lemon flex flex-row items-center gap-x-1 mr-4' onClick={ ToggleMenu }>
+    <div className='border-lemon flex flex-row items-center gap-x-1 mr-4 cursor-pointer' onClick={ ToggleMenu }>
         <Image src={profile} className='w-12 p-1 rounded-full'/>
         <h4 className='text-lemon'> nicolas96 </h4>
      </div>

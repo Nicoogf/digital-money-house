@@ -28,7 +28,7 @@ const page = () => {
                          sm:w-[50%] sm:text-xl
                          md:py-5
                          lg:w-[25%] lg:py-3 lg:text-xl
-                         xl:w-[18%] lg:py-3 lg:text-base'/>
+                         xl:w-[18%] '/>
 
       <a className='bg-lemon block text-center font-semibold py-2 rounded-lg cursor-pointer border-2
                     w-[80%] border-transparent hover:bg-gray-900/70 hover:text-lemon hover:border-lemon
@@ -37,11 +37,11 @@ const page = () => {
                       sm:w-[50%] sm:text-xl sm:py-4
                       md:py-5
                       lg:w-[25%] lg:py-3 lg:text-xl
-                      xl:w-[18%] lg:py-3 lg:text-base'
+                      xl:w-[18%]  '
           href="./"
       > Ingresar </a>      
       
-      <p className='text-xs bg-red-600/100 text-xs font-semibold text-white box-border px-3 py-2 rounded-md mt-8
+      <p className='text-xs bg-red-600/100 font-semibold text-white box-border px-3 py-2 rounded-md mt-8
                     sm:text-text-base'>
        Codigo incorrecto , vuelve a intentarlo
       </p>
