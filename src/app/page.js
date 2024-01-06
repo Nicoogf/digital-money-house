@@ -1,11 +1,10 @@
 import FooterComponent from "./components/FooterComponent";
-import NavOff from "./components/NavOff";
 import NavOn from "./components/NavOn";
 
 
 export default function Home() {
   return (
-    <main className="w-full">
+   <main className="w-full">
 
     <NavOn />
 
@@ -100,6 +99,6 @@ export default function Home() {
   
 
     <FooterComponent />
-  </main>
+   </main>
   )
 }

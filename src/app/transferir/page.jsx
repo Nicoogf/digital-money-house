@@ -78,7 +78,7 @@ const TransferenciaComponent = () => {
     </section>
 
     <FooterComponent />
-  </main>
+    </main>
   )
 }
 
