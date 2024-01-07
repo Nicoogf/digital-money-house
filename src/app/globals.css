@@ -49,8 +49,16 @@
     background: linear-gradient(180deg, rgba(64,93,2,1) 0%, rgba(98,150,6,1) 35%, rgba(204,241,127,1) 100%);
 }
 
+.alturacuatro{
+    height: calc(100vh - 100px);   
+}
+
 input[type=number]::-webkit-inner-spin-button {
    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 @media (min-width:290px ) {

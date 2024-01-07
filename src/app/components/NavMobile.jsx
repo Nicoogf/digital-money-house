@@ -9,7 +9,7 @@ import { MdOutlineSettings } from "react-icons/md";
 
 const NavMobile = () => {
   return (
-    <nav className='w-full bg-greydark absolute bottom-0 flex flex-row justify-around items-center py-2 md:py-4  2xl:hidden'>
+    <nav className='w-full opacity-95 bg-greydark absolute bottom-0 flex flex-row justify-around items-center py-2 md:py-4  2xl:hidden'>
        
        <a href="/" className=' p-4'> 
        <GoHome className='text-xl text-lemon xxs:text-3xl md:text-5xl '/>
