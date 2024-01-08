@@ -20,13 +20,20 @@ const page = () => {
                         sm:gap-x-3'>
 
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                  placeholder='Nombre'/> 
+
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                placeholder='Apellido'/> 
+
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                placeholder='DNI' /> 
+
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                placeholder='Correo Electronico'/> 
 
         </div>
 
@@ -42,11 +49,16 @@ const page = () => {
                         sm:gap-x-3'>
 
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                            placeholder='Contraseña'/> 
+
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                            placeholder='Confirmar Contraseña'/> 
+
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'/> 
+                            sm:col-span-1 sm:py-3'
+                            placeholder='Telefono'  /> 
 
           <a className='box-border col-span-2 bg-lemon text-center font-semibold cursor-pointer border-2 
                         border-transparent hover:bg-gray-900/70 hover:text-lemon hover:border-lemon

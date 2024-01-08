@@ -42,7 +42,7 @@ const NavOff = () => {
 
         <div className='flex flex-col gap-y-2 mb-8'>
             <a className='text-lemon text-center text-xl mt-4 font-light' href='/profile '> Mi Perfil </a>
-            <a className='text-lemon text-center text-xl mt-4 font-light'> Mis Movimientos </a>
+            <a className='text-lemon text-center text-xl mt-4 font-light' href='/profile/movimientos'> Mis Movimientos </a>
             
         </div>
 

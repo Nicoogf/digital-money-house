@@ -83,7 +83,8 @@ const page = () => {
             
               <a className='font-thin flex flex-col gap-y-2 text-xs w-[75px] cursor-pointer
                             sm:w-[110px] 
-                            md:w-[130px]'                
+                            md:w-[130px]'
+                 href='./transferir'                 
               > 
 
                 <FaRegCreditCard className='box-content p-2 block mx-auto text-greydark bg-lemon text-2xl rounded-full mb-1
@@ -118,7 +119,8 @@ const page = () => {
 
               </a>
 
-              <a className='text-lemon flex flex-col gap-y-2 font-thin text-xs w-[75px] sm:w-[110px] md:w-[130px] cursor-pointer'> 
+              <a className='text-lemon flex flex-col gap-y-2 font-thin text-xs w-[75px] sm:w-[110px] md:w-[130px] cursor-pointer'
+              href='./transferir'  > 
                 <IoArrowRedoCircleOutline className='box-content p-2 block mx-auto text-greydark bg-lemon text-2xl rounded-full mb-1
                 md:text-6xl
                 xl:text-4xl'/>

@@ -2,10 +2,13 @@ import React from 'react' ;
 import Image from 'next/image';
 import profile from "../../../../public/profile.png"
 import NavMobile from '@/app/components/NavMobile';
+import NavOn from '@/app/components/NavOn';
+
 
 const page = () => {
   return (
     <main className='bg-gradient-lemon pt-1'>
+      <NavOn />
 
        <section className='w-[96%] mx-auto bg-greydark text-white shadow-lg h-screen rounded-lg overflow-scroll
        xxs:pb-24
