@@ -9,8 +9,8 @@ import { MdOutlineSettings } from "react-icons/md" ;
 const NavMobile = () => {
   return (
     <nav className='w-full opacity-95 bg-greydark absolute bottom-0 flex flex-row justify-around items-center py-2 z-50
-        md:py-3 
-        lg:py-4
+        md:py-2 
+        lg:py-3
         2xl:hidden'>
        
        <a href="../" className='p-4'> 
@@ -29,7 +29,8 @@ const NavMobile = () => {
 
        <a href="../" className=''> 
         <Image src={logo} className='w-14 bg-lemon rounded-full
-                                     sm:w-20 p-2'/>
+                                     sm:w-20 p-2
+                                    '/>
        </a>
 
        <a href="../pagar" className='p-4'> 
