@@ -8,7 +8,7 @@ import { MdOutlineSettings } from "react-icons/md" ;
 
 const NavMobile = () => {
   return (
-    <nav className='w-full opacity-95 bg-greydark absolute bottom-0 flex flex-row justify-around items-center py-2 z-50
+    <nav className='w-full opacity-95 bg-greydark fixed bottom-0 flex flex-row justify-around items-center py-2 z-50
         md:py-2 
         lg:py-3
         2xl:hidden'>

@@ -83,8 +83,9 @@ const page = () => {
             
               <a className='font-thin flex flex-col gap-y-2 text-xs w-[75px] cursor-pointer
                             sm:w-[110px] 
-                            md:w-[130px]'
+                            md:w-[130px]'                
               > 
+
                 <FaRegCreditCard className='box-content p-2 block mx-auto text-greydark bg-lemon text-2xl rounded-full mb-1
                 md:text-6xl
                 xl:text-4xl'/>
@@ -97,9 +98,10 @@ const page = () => {
                 </p>
               </a>
 
-              <a className='font-thin flex flex-col gap-y-2 text-xs w-[75px]cursor-pointer  
+              <a className='font-thin flex flex-col gap-y-2 text-xs w-[75px] cursor-pointer  
               sm:w-[110px]
               md:w-[130px]'
+                href='./profile/movimientos' 
               > 
 
                 <BsGraphDown className='box-content p-2 block mx-auto text-greydark bg-lemon text-2xl rounded-full mb-1
@@ -217,15 +219,15 @@ const page = () => {
             </h4>
 
           </div>
-
-
           
 
           <a href="../loguin" className='block max-w-[300px] bg-gray-200 w-[70%] mx-auto text-greydark font-semibold text-center py-3 rounded-lg shadow-lg
           sm:py-6 
           md:w-[60%]
           lg:text-2xl
-          xl:py-4 xl:text-xl'> Cerrar Session </a>
+          xl:py-4 xl:text-xl'>
+             Cerrar Session
+          </a>
 
        </section>
       
