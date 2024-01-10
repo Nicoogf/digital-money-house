@@ -1,9 +1,10 @@
 'use client'
 import React , {useState }from 'react' ;
-import Image from 'next/image';
+import Image from 'next/image' ;
 import logo from "../../../public/logo2.png" ;
 import profile from "../../../public/profile.png" ;
-import { IoIosCloseCircleOutline  } from "react-icons/io";
+import { IoIosCloseCircleOutline  } from "react-icons/io" ;
+import ButtonLoguin from "../components/ButtonLoguin" ;
 
 const NavOff = () => {
    
@@ -46,10 +47,7 @@ const NavOff = () => {
             
         </div>
 
-        <button className='block font-semibold bg-lemon text-greydrak w-[80%] px-4 py-2 mx-auto rounded-lg
-        lg:w-[40%] lg:py-3'> 
-            Cerrar Sesion
-        </button>
+        <ButtonLoguin opcion="Cerrar Seccion" color="verde" url="../"/>  
 
     </div>
 

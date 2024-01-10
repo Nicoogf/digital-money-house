@@ -3,14 +3,20 @@ import React  from 'react' ;
 const page = ( props ) => {
   return (
     
-      <a href="#_" className={`relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold  rounded-md shadow-2xl group border-[2px]
+      <a href={`./${props.url}`} 
+      className={`relative block text-center mx-auto items-center justify-center px-6 py-4 overflow-hidden font-bold  rounded-xl shadow-2xl group border-[2px] w-[80%] sm:w-[70%] md:w-[60%] max-w-[350px] 
 
       ${ props.color === "gris"  ? "text-greylight border-greylight  hover:text-greydark hover:border-greydark"
       :
-    "text-lemon border-lemon hover:text-greydark hover:border-greydark "
+     "text-lemon border-lemon hover:text-greydark hover:border-greydark "
       }`}>
 
-        <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-lemonbold via-lemon to-lemondark group-hover:opacity-100 "></span>
+        <span className={`absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br
+
+         ${ props.color === "gris"  ? "from-greylightdos via-greylight to-greylighttres"
+        :  "from-lemonbold via-lemon to-lemondark"} group-hover:opacity-100`}>
+
+        </span>
 
         {/* <!-- Top glass gradient --> */}
         <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
