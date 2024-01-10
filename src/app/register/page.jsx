@@ -1,6 +1,8 @@
 import React from 'react' ;
 import NavComponent from '../components/Nav';
 import FooterComponent from '../components/FooterComponent';
+import ButtonLoguin from "../components/ButtonLoguin" ;                
+  
 
 const page = () => {
   return (
@@ -20,18 +22,22 @@ const page = () => {
                         sm:gap-x-3'>
 
           <input className='col-span-2 py-1 rounded-lg
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
                             sm:col-span-1 sm:py-3'
                   placeholder='Nombre'/> 
 
           <input className='col-span-2 py-1 rounded-lg
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
                             sm:col-span-1 sm:py-3'
                 placeholder='Apellido'/> 
 
           <input className='col-span-2 py-1 rounded-lg
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
                             sm:col-span-1 sm:py-3'
                 placeholder='DNI' /> 
 
           <input className='col-span-2 py-1 rounded-lg
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
                             sm:col-span-1 sm:py-3'
                 placeholder='Correo Electronico'/> 
 
@@ -49,25 +55,21 @@ const page = () => {
                         sm:gap-x-3'>
 
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'
+                            text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
+                             sm:col-span-1 sm:py-3'
                             placeholder='Contraseña'/> 
 
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-1 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
+                           sm:col-span-1 sm:py-3'
                             placeholder='Confirmar Contraseña'/> 
 
           <input className='col-span-2 py-1 rounded-lg
-                            sm:col-span-1 sm:py-3'
+                           text-white bg-gray-900/70 box-border pl-4 outline-none    placeholder:pl-4 placeholder:text-gray-500  active:text-grey-dark  focus:outline-lemon max-w-[350px]
+                           sm:col-span-1 sm:py-3'
                             placeholder='Telefono'  /> 
 
-          <a className='box-border col-span-2 bg-lemon text-center font-semibold cursor-pointer border-2 
-                        border-transparent hover:bg-gray-900/70 hover:text-lemon hover:border-lemon
-                        transition-all duration-500 rounded-lg                        
-                        sm:col-span-1 
-                        sm:text-xl sm:py-3                               
-                        lg:text-lg'
-                    href="./"
-                > Crear cuenta </a>                   
+         <ButtonLoguin grid={true} opcion="Registrar" color="verde" url="/loguin"/>                  
       
 
         </div>

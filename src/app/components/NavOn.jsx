@@ -47,7 +47,7 @@ const NavOff = () => {
             
         </div>
 
-        <ButtonLoguin opcion="Cerrar Seccion" color="verde" url="../"/>  
+        <ButtonLoguin opcion="Cerrar Seccion" color="verde" url="/loguin"/>  
 
     </div>
 

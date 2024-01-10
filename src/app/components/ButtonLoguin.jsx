@@ -9,7 +9,12 @@ const page = ( props ) => {
       ${ props.color === "gris"  ? "text-greylight border-greylight  hover:text-greydark hover:border-greydark"
       :
      "text-lemon border-lemon hover:text-greydark hover:border-greydark "
-      }`}>
+      }
+      
+      ${ props.grid ? "col-span-2 sm:col-span-1 px-0 py-4 w-auto max-w-[350px]" : ""   
+      }
+      
+      `}>
 
         <span className={`absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br
 
