@@ -34,7 +34,7 @@ const page = () => {
 
      <ButtonLoguin opcion="Ingresar" color="verde" url="../"/>      
      <ButtonLoguin opcion="Ingresar" color="verde" url="../"/> 
-     <ButtonLoguin opcion="Ingresar" color="verde" url="../"/> 
+     <ButtonLoguin opcion="Ingresar" color="gris" url="../"/> 
     </section>
 
     <FooterComponent />
